@@ -42,6 +42,6 @@ function handleClick(id) {
     }).then(data => {
         localStorage.setItem("srcId", data.imdbID);
         console.log(data)
-        window.location.replace("http://127.0.0.1:5500/watch.html");
+        window.location.replace("https://sharvil1234.github.io/MoWatch/watch.html");
     })
 }

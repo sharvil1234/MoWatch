@@ -11,15 +11,7 @@
     <h1>WATCH PAGE</h1>
     <iframe id="watchframe" height="600" width="100%"></iframe>
 
-    <script>
-        srcId = localStorage.getItem("srcId");
-        console.log(srcId);
-        document.getElementById("watchframe").src = "https://vidsrc.xyz/embed/movie/" + srcId;
-
-        setTimeout(5000, () => {
-            // window.stop();
-        })
-    </script>
+    <script src="watch.js"></script>
 </body>
 
 </html>
